@@ -1,0 +1,41 @@
+# Windows and editor state
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+.obsidian/
+.codex/
+.claude/
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+*.local
+local.properties
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# Audit and application material
+*_PRIVATE.md
+MEMOMIND_APPLICATION.md
+memomind-private/
+.memomind-audit-work/
+*.log
+*.tmp
+*.zip
+*.apk
+*.aab
+
+# Generated output
+__pycache__/
+.cache/
+node_modules/
+build/
+dist/
